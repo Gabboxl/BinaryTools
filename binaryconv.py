@@ -11,3 +11,4 @@ while True:
 
     print(sum(snumeri))
     print(snumeri)
+    # sucsa
