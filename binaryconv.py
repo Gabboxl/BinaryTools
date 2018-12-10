@@ -1,5 +1,5 @@
 while True:
-    num: int = input("Inserisci un numero binario da convertire in decimale: ")
+    num = input("Inserisci un numero binario da convertire in decimale: ")
 
     for i in str(num):
         if i in '10':  # If digit is 1 or 0
@@ -7,7 +7,7 @@ while True:
         else:
             binary = False
     if not binary:
-        print('Must be a binary number (contain only 1s and 0s) sucsa')
+        print('\n Must be a binary number (contain only 1s and 0s) \n\n\n sucsa')
         break
 
     binario = list(map(int, num))
